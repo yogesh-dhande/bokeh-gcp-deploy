@@ -1,9 +1,9 @@
 # Instructions
 
-## Deploy to Cloud Run
+## 1. Deploy to Cloud Run
 
 `gcloud builds submit`
 
-## Get the app URL
+## 2. Get the app URL
 
 `gcloud run services list --platform managed | awk 'NR==2 {print $4}'`
